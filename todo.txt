@@ -1,0 +1,18 @@
+-Creer un repository git
+
+-Page d'inscription
+    Front
+        email, mot de passe
+    Metier
+        bouton s'inscrire appelle la fonction inscription
+    Base
+        table inscription
+        fonction inscription
+        
+-Page d'accueil
+    Front
+        montant, taux du pret, date de debut
+    Metier
+
+    Base
+        table 
