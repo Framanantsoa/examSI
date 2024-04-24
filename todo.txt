@@ -4,15 +4,38 @@
     Front
         email, mot de passe
     Metier
-        bouton s'inscrire appelle la fonction inscription
+        bouton s'inscrire appelle la fonction d'inscription
     Base
         table inscription
-        fonction inscription
+        fonction d'inscription
         
 -Page d'accueil
     Front
         montant, taux du pret, date de debut
     Metier
-
+        montant du pret
+        taux effectif global
+        duree d'amortissement
+        date de debut
+        mensualite a payer
+        cout de credit
+        cout total du pret
     Base
-        table 
+        table de simulation
+        fonction qui fait:
+            la somme de pret total
+            cout de credit
+
+-Page d'amortissement
+    Front
+        N mensualite, Date du versement, solde initial, mensualite, capital rembourse,
+         interets, capital restant du
+    Metier
+        affichage du tableau qui contient les elements dans Front
+    Base
+        Table de simulation
+        Fonction qui calcule:
+            capital restant du
+            interets
+            capital rembourse
+            solde initial
